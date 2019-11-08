@@ -1,4 +1,4 @@
-# express-basic-auth
+# express-basic-auth-with-req-res
 
 [![npm version](https://badge.fury.io/js/express-basic-auth.svg)](https://badge.fury.io/js/express-basic-auth)
 [![npm](https://img.shields.io/npm/dm/express-basic-auth.svg)]()
