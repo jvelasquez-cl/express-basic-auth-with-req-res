@@ -57,8 +57,8 @@ function buildMiddleware(options) {
         }
 
         if(isAsync)
-            return authorizer(authentication.name, authentication.pass, authorizerCallback)
-        else if(!authorizer(authentication.name, authentication.pass))
+            return authorizer(authentication.name, authentication.pass, req, res, authorizerCallback)
+        else if(!authorizer(authentication.name, authentication.pass, req, res))
             return unauthorized()
 
         return next()

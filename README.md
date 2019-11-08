@@ -14,7 +14,7 @@ Simple plug & play HTTP basic auth middleware for Express.
 Just run
 
 ```shell
-npm install express-basic-auth
+npm install express-basic-auth-with-req-res
 ```
 
 ## How to use
@@ -208,7 +208,7 @@ basicAuth({
 
 ## Tests
 
-The cases in the `example.js` are also used for automated testing. So if you want  
+The cases in the `example.js` are also used for automated testing. So if you want
 to contribute or just make sure that the package still works, simply run:
 
 ```shell
